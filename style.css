@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color:whitesmoke;
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    display:flex;
+    justify-content: center;
+    margin-top:5rem;
+    font-size:1.7rem;
+}
+
+.heading h1 {
+    border-top:1px solid whitesmoke;
+    border-bottom:2px solid whitesmoke;
+    padding:1rem;
+}
+
+.quote-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+}
+
+.quote-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:600px;
+    border:1px solid white;
+    padding:3rem;
+}
+
+.quote {
+    font-size:1.8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100%;
+    text-align: center;
+    margin-bottom:.5rem;
+}
+
+.btn-quote {
+    border-style:none;
+    background-color: rgb(60, 60, 60);
+    color:whitesmoke;
+    font-size:1.5rem;
+    padding:.8rem;
+    border-radius:30px;
+    text-align:center;
+    margin-top:2rem;
+    min-width:300px;
+    box-shadow: inset 0 0 5px 1px white;
+    transition: all .3s ease;
+}
+
+.btn-quote:hover {
+    background-color: whitesmoke;
+    color:black;
+    cursor:pointer;
+}
